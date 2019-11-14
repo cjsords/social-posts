@@ -1,0 +1,16 @@
+<button (click)="toggleForm()" class="new-thought-btn">New Thought</button>
+<div [hidden]="formHidden">
+  <form (ngSubmit)="submitPost()">
+    <label for="title">Title</label>
+    <input type="text" [(ngModel)]="newPost.title" name="title" id="title" />
+    <label for="thought">Thought</label>
+    <textarea
+      name="thought"
+      [(ngModel)]="newPost.thought"
+      id="thought"
+      cols="30"
+      rows="10"
+    ></textarea>
+    <button type="submit">Add Post</button>
+  </form>
+</div>

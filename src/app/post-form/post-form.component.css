@@ -1,0 +1,44 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #b1ddea;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 15px;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+input[type="text"],
+textarea {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+
+.new-thought-btn {
+  padding: 10px;
+  width: 100%;
+  background-color: #fff;
+  border-style: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+}

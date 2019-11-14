@@ -1,0 +1,17 @@
+article {
+  font-family: "Dosis", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid #f3f1f7;
+}
+
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 5px;
+}
